@@ -9,7 +9,7 @@ const paymentSchema = new mongoose.Schema({
     transactionID:{
         type:String,
         required:true,
-        uniqued:true,
+        unique:true,
     },
     paymentAmount:{
         type:String,
